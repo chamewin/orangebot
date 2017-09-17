@@ -1,0 +1,22 @@
+{
+  "name": "npm_bot",
+  "version": "1.0.0",
+  "description": "THD Orange Bot Problem.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "terrible",
+    "bad",
+    "inadequate"
+  ],
+  "author": "James Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.1.0",
+    "twit": "^2.2.9",
+    "watson-developer-cloud": "^2.39.0"
+  }
+}
