@@ -1,18 +1,15 @@
 {
-  "name": "npm_bot",
+  "name": "twitterbot",
   "version": "1.0.0",
-  "description": "THD Orange Bot Problem.",
-  "main": "bot.js",
+  "description": "Scans for tweets containing keyword \"homedepot\", determines if  the tweet is positive or negative, and either promots the tweeter for a review or  sends a report to a Home Depot attendant respectively. ",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "terrible",
-    "bad",
-    "inadequate"
+    "homedepot"
   ],
-  "author": "James Nguyen",
+  "author": "james nguyen",
   "license": "ISC",
   "dependencies": {
     "nodemailer": "^4.1.0",
