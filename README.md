@@ -51,11 +51,12 @@ And you're all set!
 
 Issues
 
--The tone analyzer api only allows 2500 uses. You can get more at IBM Bluemix.
--Twitter won't allow repeated requests using the current code. Our code pulls from Twitter every 30 secs, but it only pulls
-the lastest post. 
-    - I plan on fixing this later by changing to "twit's" stream function from its get function. 
--Sometimes the post will be neutral and will not return anything.
+The tone analyzer api only allows 2500 uses. You can get more at IBM Bluemix.
+
+Twitter won't allow repeated requests using the current code. Our code pulls from Twitter every 30 secs, but it only pulls
+the lastest post. I plan on fixing this later by changing to "twit's" stream function from its get function. 
+
+Sometimes the post will be neutral and will not return anything.
 
 Credits: Kyle Xiao, James Nguyen, Benson Yang, Annie Lian
 
