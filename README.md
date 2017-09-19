@@ -64,4 +64,3 @@ Sometimes the post will be neutral and will not return anything.
 
 Credits: Kyle Xiao, James Nguyen, Benson Yang, Annie Lian
 
-Version 0
