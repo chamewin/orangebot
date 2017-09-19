@@ -1,35 +1,35 @@
 /**
-* Team: grinddontstop
+* Team: GrindDontStop
 * Date: 9/17/17
-* Twitter bot that checks latest tweet with homedepot keyword and addresses it accordingly
+* Twitter bot that checks for tweets containing keyword "homedepot" and address them accordingly.
 */
-console.log('starting orangebot...\n');
+console.log('Starting OrangeBot...\n');
 
-//stores JSON tweet post
+//Stores JSON tweet post
 var tweet
 
-//remembers last checked post
+//Remembers last checked post
 var lastCheckedId = 0;
 
 //Twitter API
 var Twit = require('twit');
 
-//configuration for bot account
+//Configuration for bot account
 var config = require('./config');
 
-//configuration for IBM tone analysis API
+//Configuration for IBM Tone Analysis API
 var analyzer = require('./analyzer');
 
-//IBM tone analysis API
+//IBM Tone Analysis API
 var ToneAnalyzerV3 = require('watson-developer-cloud/tone-analyzer/v3');
 
-//creates instance of tone analysis
+//Creates instance of Tone Analysis
 var toneAnalyzer = new ToneAnalyzerV3(analyzer);
 
-//email API
+//Email API
 var nodemailer = require('nodemailer');
 
-//creates instances of Twitter API with account configurations
+//Creates instances of Twitter API with account configurations
 var T = new Twit(config);
 
 /**
