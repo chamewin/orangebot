@@ -26,3 +26,5 @@ Why is this useful?
 This allows the buisness to monitor their customer service and respond according to their customers compliments or complaints.
 
 Credits: Kyle Xiao, James Nguyen, Benson Yang, Annie Lian
+
+Version 0
