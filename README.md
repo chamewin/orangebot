@@ -31,9 +31,10 @@ How to Use
 2. Open terminal.
 3. Change the directory to where the files you cloned are.
 4. Install all necessary npm packages. 
-  - npm install twit --save
-  - npm install watson-developer-cloud --save
-  - npm install nodemailer --save
+    - npm install
+    - npm install twit --save
+    - npm install watson-developer-cloud --save
+    - npm install nodemailer --save
 5. Run with command "node index.js"
 
 Credits: Kyle Xiao, James Nguyen, Benson Yang, Annie Lian
