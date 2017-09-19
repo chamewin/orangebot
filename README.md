@@ -27,6 +27,18 @@ This allows the buisness to monitor their customer service and respond according
 
 How to Use
 
+Before you start
+
+Make sure you have a Twitter Account and its access/consumer keys. You can replace the keys in config.js with your own keys.
+Same with analyzer.js. The current access key only has 2500 calls minus whatever we already used.
+You can get your keys at:
+    - https://apps.twitter.com/
+    - https://console.bluemix.net/registration/?target=/catalog/%3fcategory=watson&cm_mmc=Earned-_-Watson+Core+-+Platform-_-WW_WW-_-intercom&cm_mmca1=000000OF&cm_mmca2=10000409& 
+
+Also make sure you have set up two email accounts. One for the bot and the other as a test employee. Go to index.js and find the nodemailer section and change the user and password to those of the emails you will be using. 
+
+And you're all set!
+    
 1. Clone this repo to your computer. 
 2. Open terminal.
 3. Change the directory to where the files you cloned are.
@@ -36,6 +48,14 @@ How to Use
     - npm install watson-developer-cloud --save
     - npm install nodemailer --save
 5. Run with command "node index.js"
+
+Issues
+
+-The tone analyzer api only allows 2500 uses. You can get more at IBM Bluemix.
+-Twitter won't allow repeated requests using the current code. Our code pulls from Twitter every 30 secs, but it only pulls
+the lastest post. 
+    - I plan on fixing this later by changing to "twit's" stream function from its get function. 
+-Sometimes the post will be neutral and will not return anything.
 
 Credits: Kyle Xiao, James Nguyen, Benson Yang, Annie Lian
 
