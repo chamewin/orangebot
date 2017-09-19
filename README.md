@@ -25,6 +25,17 @@ Why is this useful?
 
 This allows the buisness to monitor their customer service and respond according to their customers compliments or complaints.
 
+How to Use
+
+1. Clone this repo to your computer. 
+2. Open terminal.
+3. Change the directory to where the files you cloned are.
+4. Install all necessary npm packages. 
+  - npm install twit --save
+  - npm install watson-developer-cloud --save
+  - npm install nodemailer --save
+5. Run with command "node index.js"
+
 Credits: Kyle Xiao, James Nguyen, Benson Yang, Annie Lian
 
 Version 0
