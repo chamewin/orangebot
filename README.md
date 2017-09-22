@@ -16,7 +16,7 @@ OrangeBot uses the Twitter API to scan and retrieve tweets that contain the keyw
 
 The tweet is stored and sent through the Tone Analyzer which uses linguistic analysis to detect the emotional tone of the written text. 
 
-The five emotions that the analyzer detects are anger, disgust, fear, joy, and sadness. The tone analyzer will then give a score to each of these emotions e.g. someone tweets, "I hate homedepot!". It would evaluate the anger value to be .78 which infers that the tweeter is expressing significant anger. 
+The five emotions that the analyzer detects are anger, disgust, fear, joy, and sadness. The tone analyzer will then give a score to each of these emotions e.g. someone tweets, "I hate homedepot!". It would evaluate the anger value to be **0.78** which infers that the tweeter is expressing significant anger. 
 
 Finally, the bot will calculate a weighted average of the five values and produce a score. If the **average is greater than 0.25**, a email will be sent to a Home Depot employee using the nodemailer API. However, if the **average is less than 0.25**, the bot will reply to the account from which the tweet originated prompting the user to give Home Depot a review.
 
