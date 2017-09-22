@@ -1,6 +1,6 @@
 # OrangeBot
 
-##What is OrangeBot? 
+## What is OrangeBot? 
 
 Twitter bot that responds to positive and negative feedback on Twitter relating to keyword "homedepot". 
 
@@ -10,7 +10,7 @@ OrangeBot uses:
   - IBM Watson Tone Analyzer API
   - Nodemailer API
   
-##How does it work?
+## How does it work?
 
 OrangeBot uses the Twitter API to scan and retrieve tweets that contain the keyword "homedepot". 
 
@@ -20,11 +20,11 @@ The five emotions that the analyzer detects are anger, disgust, fear, joy, and s
 
 Finally, the bot will calculate a weighted average of the five values and produce a score. If the average is greater than .25, a email will be sent to a Home Depot employee using the nodemailer API. However, if the average is less than .25, the bot will reply to the account from which the tweet originated prompting the user to give Home Depot a review.
 
-##Why is this useful?
+## Why is this useful?
 
 This allows the buisness to monitor their customer service and respond according to their customers compliments or complaints.
 
-##How to Use
+## How to Use
 
 Before you start
 
@@ -53,7 +53,7 @@ And you're all set!
     - npm install nodemailer --save
 5. Run with command "node index.js"
 
-##Issues
+## Issues
 
 The tone analyzer api only allows 2500 uses. You can get more at IBM Bluemix.
 
