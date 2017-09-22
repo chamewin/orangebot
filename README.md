@@ -63,8 +63,12 @@ And you're all set!
     npm install nodemailer --save
     ```
     
-5. Run with command "node index.js"
-
+5. Run command
+    
+    ```
+    node index.js
+    ```
+   
 ## Issues
 
 The tone analyzer api only allows 2500 uses. You can get more at IBM Bluemix.
