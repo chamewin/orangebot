@@ -45,13 +45,12 @@ Also make sure you have set up two email accounts. One for the bot and the other
 
 And you're all set!
     
-1. Clone this repo to your computer. 
-2. Open terminal.
-3. Change the directory to where the files you cloned are.
+1. Create a folder.
+3. Change the directory to the folder you just created. For example:
   
     ```
-    e.g.
     cd User/Chame/Desktop/orangebot
+    git clone https://github.com/chamewin/orangebot
     ```
     
 4. Install all necessary npm packages. 
