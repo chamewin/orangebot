@@ -4,11 +4,11 @@
 
 Twitter bot that responds to positive and negative feedback on Twitter relating to keyword "homedepot". 
 
-OrangeBot uses:
-  - Language: javascript, framework: node
-  - "twit" (a Twitter API client for node
-  - IBM Watson Tone Analyzer API
-  - Nodemailer API
+OrangeBot:
+  - is coded in JavaScript using node.js framework
+  - uses "twit", a Twitter API client for node
+  - uses IBM Watson Tone Analyzer API
+  - uses Nodemailer API
   
 ## How does it work?
 
@@ -18,7 +18,9 @@ The tweet is stored and sent through the Tone Analyzer which uses linguistic ana
 
 The five emotions that the analyzer detects are anger, disgust, fear, joy, and sadness. The tone analyzer will then give a score to each of these emotions e.g. someone tweets, "I hate homedepot!". It would evaluate the anger value to be .78 which infers that the tweeter is expressing significant anger. 
 
-Finally, the bot will calculate a weighted average of the five values and produce a score. If the average is greater than .25, a email will be sent to a Home Depot employee using the nodemailer API. However, if the average is less than .25, the bot will reply to the account from which the tweet originated prompting the user to give Home Depot a review.
+Finally, the bot will calculate a weighted average of the five values and produce a score. If the **average is greater than 0.25**, a email will be sent to a Home Depot employee using the nodemailer API. However, if the **average is less than 0.25**, the bot will reply to the account from which the tweet originated prompting the user to give Home Depot a review.
+
+*note. Positive is defined as **below 0.25**. Negative is defined as **above 0.25**.
 
 ## Why is this useful?
 
