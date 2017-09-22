@@ -33,11 +33,13 @@ Same with analyzer.js. The current access key only has 2500 calls minus whatever
 
 You can get your keys at:
     
-    - https://apps.twitter.com/
-    
-    
-    - https://console.bluemix.net/registration/?target=/catalog/%3fcategory=watson&cm_mmc=Earned-_-Watson+Core+-+Platform-_-WW_WW-_-intercom&cm_mmca1=000000OF&cm_mmca2=10000409& 
+```    
+https://apps.twitter.com/
+```
 
+```
+https://console.bluemix.net/registration/?target=/catalog/%3fcategory=watson&cm_mmc=Earned-_-Watson+Core+-+Platform-_-WW_WW-_-intercom&cm_mmca1=000000OF&cm_mmca2=10000409& 
+```
 
 Also make sure you have set up two email accounts. One for the bot and the other as a test employee. Go to index.js and find the nodemailer section and change the user and password to those of the emails you will be using. 
 
